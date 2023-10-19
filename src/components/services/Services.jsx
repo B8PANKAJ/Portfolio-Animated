@@ -35,24 +35,15 @@ const Services = () => {
       animate={"animate"}
     >
       <motion.div className="textContainer" variants={variants}>
-        <p>
-          I focus on helping your brand grow
-          <br /> and move forward
-        </p>
         <hr />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
+            <motion.b whileHover={{ color: "orange" }}>Certifiacions</motion.b>{" "}
+            Links
           </h1>
-        </div>
-        <div className="title">
-          <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
-          </h1>
-          <button>WHAT WE DO?</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -60,53 +51,60 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>HTML5</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            This is to certify that Pankaj Kumar has demonstrated exemplary
+            knowledge and skills in the field of HTML Hypertext Markup Language.
+            He has successfully completed the HTML Certification Course offered
+            by Great Learning.
           </p>
-          <button>Go</button>
+          <a href="https://olympus1.mygreatlearning.com/course_certificate/AGOBRIXF">
+            <button>Go</button>
+          </a>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>CSS3</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            This is to certify that Pankaj Kumar has demonstrated exemplary
+            knowledge and skills in the field of Css3. He has successfully
+            completed the CSS3 Certification Course offered by Great Learning.
           </p>
-          <button>Go</button>
+          <a href="https://olympus1.mygreatlearning.com/course_certificate/NXUQAMXO">
+            <button>Go</button>
+          </a>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Javascript</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            This is to certify that Pankaj Kumar has demonstrated exemplary
+            knowledge and skills in the field of javascript. He has successfully
+            completed the Javascript Certification Course offered by Great
+            Learning.
           </p>
-          <button>Go</button>
+          <a href="https://olympus1.mygreatlearning.com/course_certificate/OYOPDIDA">
+            <button>Go</button>
+          </a>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>React Js</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            This is to certify that Pankaj Kumar has demonstrated exemplary
+            knowledge and skills in the field of React Js. He has successfully
+            completed the React Js Certification Course offered by Great
+            Learning.
           </p>
-          <button>Go</button>
+          <a href="https://olympus1.mygreatlearning.com/course_certificate/EFYTYERK">
+            <button>Go</button>
+          </a>
         </motion.div>
       </motion.div>
     </motion.div>
